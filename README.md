@@ -7,3 +7,5 @@ An SQL Injection vulnerability may affect any website or web application that us
 
 **How and Why Is an SQL Injection Attack Performed**
 
+To make an SQL Injection attack, an attacker must first find vulnerable user inputs within the web page or web application. A web page or web application that has an SQL Injection vulnerability uses such user input directly in an SQL query. The attacker can create input content. Such content is often called a malicious payload and is the key part of the attack. After the attacker sends this content, malicious SQL commands are executed in the database.
+
