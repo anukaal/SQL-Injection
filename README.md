@@ -13,3 +13,17 @@ SQL is a query language that was designed to manage data stored in relational da
 
 
 * Attackers can use SQL Injections to find the credentials of other users in the database. They can then impersonate these users. The impersonated user may be a database administrator with all database privileges.
+
+* SQL lets you select and output data from the database. An SQL Injection vulnerability could allow the attacker to gain             
+  complete access to all data in a database server.
+
+* SQL also lets you alter data in a database and add new data. For example, in a financial application, an attacker could use 
+  SQL Injection to alter balances, void transactions, or transfer money to their account.
+  
+* In some database servers, you can access the operating system using the database server. This may be intentional or accidental. In such case, an attacker could use an SQL Injection as the initial vector and then attack the internal network behind a firewall.
+  
+  
+  
+  
+  
+  
